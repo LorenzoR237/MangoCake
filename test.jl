@@ -10,3 +10,8 @@ Tmp = Template(
 )
 
 Tmp("ApplePie")
+
+using Documenter: Documenter
+using DocumenterTools
+
+DocumenterTools.generate(name = "docs")
